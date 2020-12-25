@@ -1,0 +1,315 @@
+[11-Aug-2020 22:58:41 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 22:58:41 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 22:58:41 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:49 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:49 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:49 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:50 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:50 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:50 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:51 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:51 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:51 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:51 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:51 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:51 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:54 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:54 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:54 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:55 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:55 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:55 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:58 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:58 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:58 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:02:59 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:59 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:02:59 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:02 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:02 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:02 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:04 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:04 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:04 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/xmlrpc.php(31): require_once('/var/www/wp-loa...')
+#11 {main}
+  throw in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:13 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:13 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:13 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:16 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:16 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:16 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:17 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:17 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:17 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:18 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:18 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:18 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:03:20 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:20 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:03:20 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:04:08 UTC] PHP Warning:  include(/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php): failed to open stream: No such file or directory in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:04:08 UTC] PHP Warning:  include(): Failed opening '/var/www/wp-content/plugins/wordpress-seo/vendor/composer/../../vendor_prefixed/symfony/dependency-injection/Container.php' for inclusion (include_path='.:/opt/remi/php73/root/usr/share/pear:/opt/remi/php73/root/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/wp-content/plugins/themeisle-companion/vendor/composer/ClassLoader.php on line 444
+[11-Aug-2020 23:04:08 UTC] PHP Fatal error:  Uncaught Error: Class 'YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container' not found in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php:19
+Stack trace:
+#0 /var/www/wp-content/plugins/wordpress-seo/src/main.php(134): require_once()
+#1 /var/www/wp-content/plugins/wordpress-seo/src/main.php(75): Yoast\WP\SEO\Main->get_container()
+#2 /var/www/wp-content/plugins/wordpress-seo/src/functions.php(26): Yoast\WP\SEO\Main->load()
+#3 /var/www/wp-content/plugins/wordpress-seo/wp-seo-main.php(345): YoastSEO()
+#4 /var/www/wp-includes/class-wp-hook.php(287): wpseo_init('')
+#5 /var/www/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/wp-settings.php(409): do_action('plugins_loaded')
+#8 /var/www/wp-config.php(97): require_once('/var/www/wp-set...')
+#9 /var/www/wp-load.php(37): require_once('/var/www/wp-con...')
+#10 /var/www/wp-blog-header.php(13): require_once('/var/www/wp-loa...')
+#11 /var/w in /var/www/wp-content/plugins/wordpress-seo/src/generated/container.php on line 19
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>nv/v1/posts/page/(?P<page_number>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>content-forms/v1/submit</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_post_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_block_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugins</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugin</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/fetch_templates</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/import_template</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[11-Aug-2020 23:19:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-admin/admin-header.php on line 9
+[11-Aug-2020 23:19:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1050
+[11-Aug-2020 23:19:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1051
+[11-Aug-2020 23:28:33 UTC] PHP Warning:  file_get_contents(/home/content/p3pewpnas02pod03_data03/98/43580698/html/.htaccess): failed to open stream: No such file or directory in /opt/wp-cli/src/commands/gdssl.php on line 38
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>nv/v1/posts/page/(?P<page_number>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>content-forms/v1/submit</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_post_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_block_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugins</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugin</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/fetch_templates</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:20 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/import_template</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:02:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-admin/admin-header.php on line 9
+[12-Aug-2020 00:02:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1050
+[12-Aug-2020 00:02:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1051
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>nv/v1/posts/page/(?P<page_number>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>content-forms/v1/submit</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_post_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/save_block_meta/(?P<id>\d+)</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugins</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/get_plugin</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/fetch_templates</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Notice:  register_rest_route was called <strong>incorrectly</strong>. The REST API route definition for <code>themeisle-gutenberg-blocks/v1/import_template</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /var/www/wp-includes/functions.php on line 5225
+[12-Aug-2020 00:08:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-admin/admin-header.php on line 9
+[12-Aug-2020 00:08:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1050
+[12-Aug-2020 00:08:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/wp-includes/functions.php:5225) in /var/www/wp-includes/option.php on line 1051

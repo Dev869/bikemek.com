@@ -1,0 +1,23 @@
+[12/Aug/2020:16:14:08] (I): WordPress Instance Info:
+[12/Aug/2020:16:14:08] (I): Home URL : https://bikemek.com
+[12/Aug/2020:16:14:08] (I): Site URL : https://bikemek.com
+[12/Aug/2020:16:14:08] (I): WordPress Version : 5.5
+[12/Aug/2020:16:14:08] (I): Onboarding Version : 1.0.1
+[12/Aug/2020:16:14:08] (I): Multisite : No
+[12/Aug/2020:16:14:08] (I): Server Info : Apache
+[12/Aug/2020:16:14:08] (I): PHP Version : 7.3.12
+[12/Aug/2020:16:14:08] (I): HTTPS : Yes
+[12/Aug/2020:16:14:08] (I): PHP Max Execution Time : 300
+[12/Aug/2020:16:14:08] (I): PHP Max Input Vars : 1000
+[12/Aug/2020:16:14:08] (I): Max Upload Size : 104857600
+[12/Aug/2020:16:14:08] (I): Plugins:
+[12/Aug/2020:16:14:08] (I): [PLUGIN] : v ()
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Custom Adobe Fonts (Typekit) : v1.0.17 (Brainstorm Force)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Elementor : v2.9.14 (Elementor.com)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Jetpack by WordPress.com : v8.7.1 (Automattic)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Image optimization service by Optimole : v2.4.2 (Optimole)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Pricing Table by Supsystic : v1.8.5 (supsystic.com)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Sucuri Security - Auditing, Malware Scanner and Hardening : v1.8.24 (Sucuri Inc.)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Orbit Fox Companion : v2.9.12 (Themeisle)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] Yoast SEO : v14.6.1 (Team Yoast)
+[12/Aug/2020:16:14:08] (I): [PLUGIN] WP101 Video Tutorials : v0.3 (WP101Plugin.com)
